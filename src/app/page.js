@@ -22,7 +22,7 @@ export default function Home() {
     <main>
       {info && <Info />}
       <div className="logoWrapper" onClick={() => setInfo(true)}>
-        <Image src={logo} width={500} height={100} />
+        <Image src={logo} width={350} height={100} responsive/>
       </div>
     </main>
   );
