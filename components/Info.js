@@ -57,7 +57,7 @@ const Info = () => {
                 info@spaceholder.berlin
               </a>
               <br /> 
-              ©2023, Spaceholder e.V.
+              ©{new Date().getFullYear()}, Spaceholder e.V., Vereinsregister-Nr. VR 40234 B
             </p>
           </div>
         </div>
